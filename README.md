@@ -1,5 +1,6 @@
-# Ex03 Time Table
-## Date:
+# Ex03 SLOT TIME TABLE
+
+## Date:12/03/25
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,9 +25,132 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <img src="logo.png" alt="SAVEETHA LOGO" width="1550px" height="150px" >
+    <br>
+    <br>
+    <table border="1" cellspacing="2" cellpadding="5" align="center">
+        <caption align="center" style="color: rgb(41, 197, 27);">
+            <b>TIME TABLE - YOGESH D</b> 
+            <p>   </p>
+        </caption>
+        <tr>
+            <th>Days</th>
+            <th>8:00-10:00</th>
+            <th>10:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-3:00</th>
+            <th>3:00-5:00</th>
+        </tr>
+        <tr>
+            <th>MONDAY</th>
+            <td bgcolor="white">FREE</td>
+            <td>MATH (19MA201)</td>
+            <th>L</th>
+            <td>C PROG (19AI304)</td>
+            <td bgcolor="white">FREE</td>
+        </tr>
+        <tr>
+            <th>TUESDAY</th>
+            <td>FWAD (19AI414)</td>
+            <td bgcolor="white">FREE</td>
+            <th>U</th>
+            <td>MATH (19MA444)</td>
+            <td>DE (19EE404)</td>
+        </tr>
+        <tr>
+            <th>WEDNESDAY</th>
+            <td bgcolor="white">FREE</td>
+            <td>CHEM (19CY205)</td>
+            <th>N</th>
+            <td>MENTOR MEET</td>
+            <td bgcolor="white">FREE</td>
+        </tr>
+        <tr>
+            <th>THURSDAY</th>
+            <td>UHV (SH7801)</td>
+            <td>ESS(19CY708)</td>
+            <th>C</th>
+            <td>DE (19EE404)</td>
+            <td bgcolor="white">FREE</td>
+        </tr>
+        <tr>
+            <th>FRIDAY</th>
+            <td bgcolor="white">FREE</td>
+            <td>CHEM(19CY205)</td>
+            <th>H</th>
+            <td>FWD(19AI414)</td>
+            <td bgcolor="white">FREE</td>
+        </tr>
+        <tr>
+            <th>SATURDAY</th>
+            <td bgcolor="white">FREE</td>
+            <td>C PROG (19AI304)</td>
+            <th align="center">HOUR</th>
+            <td>FWAD (19AI414)</td>
+            <td bgcolor="white">FREE</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table border="1" cellspacing="2" cellpadding="2" align="center">
+        <caption style="color: rgba(204, 42, 188, 0.804);"><b>COURSE NAME</b> <p>      </p></caption>
+        <tr>
+            <th>S.NO</th>
+            <th>COURSE CODE</th>
+            <th>COURSE NAME</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>19AI304</td>
+            <td>FUNDAMENTALS OF C PROGRAMMING</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>19AI414</td>
+            <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>19CY205</td>
+            <td>PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>19EE404</td>
+            <td>DIGITAL ELECTRONICS</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>19EY708</td>
+            <td>ENVIRONMENTAL SCIENCE AND SUSTAINABILITY</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>19MA201</td>
+            <td>CALCULUS AND MATRIX ALGEBRA</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>SH7801</td>
+            <td>HUMAN VALUES & PROFESSIONAL ETHICS</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>ECA-M SCOFT</td>
+            <td>MENTOR MEET</td>
+        </tr>
+    </table>
+</html>
+
+```
 
 
 ## OUTPUT
+![Screenshot 2025-03-12 111944](https://github.com/user-attachments/assets/0e8274e4-812c-4797-82b0-2c99b67c9d65)
+
 
 
 ## RESULT
